@@ -103,7 +103,7 @@ theme = 'hugo-texify2'
   
   # Configuración para el pie de página
   [params.footer]
-    since = 2022  # Año de inicio del sitio
+    since = 2019  # Año de inicio del sitio
     license = "CC BY-NC-SA 4.0"  # Tipo de licencia
     licenseURL = "https://creativecommons.org/licenses/by-nc-sa/4.0"
     
