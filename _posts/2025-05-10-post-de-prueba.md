@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Mi primer artículo"
 date: 2025-05-11
 ---
