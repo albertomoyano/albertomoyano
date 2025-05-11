@@ -5,6 +5,7 @@ date= "2025-05-11"
 description = "Diferencias entre los formatos de papel para impresión de libros"
 tags = ["artes gráficas","impresión"]
 categories = ["edición"]
++++
 
 ## 1. Introducción  
 Los formatos de papel para impresión de libros han evolucionado bajo tres ejes principales: el **sistema inglés tradicional** (basado en medidas imperiales), el **sistema ISO** (estandarizado internacionalmente) y **formatos especiales del gremio editorial**. Este trabajo explora sus orígenes, características técnicas y roles en la industria actual.
