@@ -1,6 +1,6 @@
 +++
 title = "Acerca de..."
-description = "Acerca de este mis trabajos con gbTeXpublisher"
+description = "Acerca de este mis trabajos"
 date = "2023-07-29"
 aliases = ["acerca de", "contacto"]
 author = "albertomoyano"
