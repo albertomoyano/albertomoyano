@@ -1,5 +1,66 @@
-baseURL = 'https://albertomoyano.github.io/'
-languageCode = "es"
+baseURL = 'https://albertomoyano.github.io/albertomoyano/'
+languageCode = 'es-es'
 title = 'Alberto Moyano'
-theme = "hugo-texify2"
-DefaultContentLanguage = "es"
+theme = 'hugo-texify2'
+
+# Configuración de taxonomía
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+# Menú de navegación
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categorías"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Etiquetas"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "Acerca de"
+    url = "/about/"
+    weight = 40
+
+[params]
+  # Color scheme
+  color = 'auto' # auto, light or dark
+  
+  # Descripción para metadatos
+  description = "Blog personal de Alberto Moyano"
+  
+  # Configuraciones específicas de TeXify2
+  customCSS = []
+  customJS = []
+  dateFormat = "2006-01-02"
+  
+  # Configuración del autor
+  [params.author]
+    name = "Alberto Moyano"
+  
+  # Configuración de enlaces sociales
+  [params.social]
+    github = "albertomoyano"
+    # linkedin = "tu_usuario_linkedin"
+    email = "alberto.alejandro.moyano@gmail.com"
+  
+  # Configuración de texto de la página principal
+  [params.homeText]
+    title = "¡Bienvenido a mi blog!"
+    content = "Aquí encontrarás artículos sobre mis intereses y proyectos."
+  
+  # Configuración para matemáticas y LaTeX
+  [params.katex]
+    enable = true
+    mathDelimiters = true
+	
