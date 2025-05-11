@@ -5,7 +5,7 @@ title: "Inicio"
 
 # Bienvenido a mi blog
 
-Gracias por visitar mi blog personal. Aquí comparto reflexiones, ideas, avances y experiencias personales.
+Gracias por visitar mi blog personal. Aquí­ comparto reflexiones, ideas, avances y experiencias personales.
 
 ## Publicaciones recientes
 
