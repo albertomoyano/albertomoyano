@@ -1,7 +1,6 @@
----
+layout: post
 title: "Mi primer artículo"
 date: 2025-05-11
----
 
 ## ¡Hola mundo!  
 
