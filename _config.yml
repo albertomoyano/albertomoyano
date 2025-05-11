@@ -1,2 +1,3 @@
-title: Mi Blog Personal
-
+title: Mi blog personal con Jekyll
+description: Un blog personal impulsado por Jekyll y GitHub Pages
+theme: minima
