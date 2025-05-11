@@ -10,10 +10,6 @@ theme = "hugo-texify2"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-[module]
-[[module.imports]]
-  path = 'github.com/weastur/hugo-texify2'
-  
 [[menu.main]]
 identifier = "post"
 name = "Artí­culos"
