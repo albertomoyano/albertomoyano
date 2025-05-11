@@ -3,11 +3,11 @@ layout: default
 title: "Bienvenido a mi blog"
 ---
 
-# 👋 ¡Hola!
+# ¡Hola!
 
-Bienvenido a mi blog personal. Aquí comparto ideas, avances y experiencias relacionadas con mis proyectos.
+Bienvenido a mi blog personal. AquĂ­ comparto ideas, avances y experiencias relacionadas con mis proyectos.
 
-## 📝 Últimos artículos
+## Últimos artí­culos
 
 <ul>
   {% for post in site.posts %}
