@@ -1,6 +1,6 @@
-title: Mi blog personal
-description: Un blog personal impulsado por Jekyll y GitHub Pages
+title: Alberto Moyano
+description: Editor desde hace más de 30 años, especializado en textos académicos.
 logo: /assets/img/logo.png
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
