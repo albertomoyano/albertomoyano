@@ -1,8 +1,3 @@
 ---
-layout: default
-title: Bienvenido
+title: Mi blog personal
 ---
-
-# ¡Hola!
-
-Este es mi blog con el theme Minimal.
