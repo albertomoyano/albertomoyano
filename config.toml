@@ -1,5 +1,6 @@
 baseURL = 'https://albertomoyano.github.io/albertomoyano/'
 languageCode = 'es-es'
+language= "es"
 
 # disqusShortname = ""
 # hasCJKLanguage = true
@@ -10,12 +11,12 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [module]
-  [module.hugoVersion]
-    min = "0.113.0"
-
+[[module.imports]]
+  path = 'github.com/weastur/hugo-texify2'
+  
 [[menu.main]]
 identifier = "post"
-name = "Artículos"
+name = "Artí­culos"
 url = "/"
 weight = 1
 
@@ -40,7 +41,7 @@ name = "Alberto Moyano"
 
 [params]
 title="Alberto Moyano"
-description = "blog de gbTeXpublisher"
+description = "blog de Alberto Moyano"
 images = ["images"]
 footnote = """
 Me pueden encontrar en <a class=link href=https://www.linkedin.com/in/edicion-cientifica/ target=_blank rel=noopener>LinkedIn</a> | Licencia
@@ -75,11 +76,11 @@ style = "monokai"
   startLevel = 2
 
 [params.sharingbuttons]
-facebook = true
-twitter = true
+facebook = false
+twitter = false
 email = true
 linkedin = true
 reddit = false
 whatsapp = false
 hackernews = false
-telegram = true
+telegram = false
