@@ -1,4 +1,85 @@
 baseURL = 'https://albertomoyano.github.io/albertomoyano/'
 languageCode = 'es-es'
-title = 'Alberto Moyano'
-theme = 'hugo-texify2'
+
+# disqusShortname = ""
+# hasCJKLanguage = true
+paginate = 5
+# rssLimit = 5
+theme = "hugo-texify2"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    min = "0.113.0"
+
+[[menu.main]]
+identifier = "post"
+name = "Artículos"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "archives"
+name = "Historial"
+url = "/post/"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "Acerca de..."
+url = "/about/"
+weight = 3
+
+[taxonomies]
+tags = "tags"
+
+[author]
+email = "alberto.alejandro.moyano@gmail.com"
+name = "Alberto Moyano"
+
+[params]
+title="Alberto Moyano"
+description = "blog de gbTeXpublisher"
+images = ["images"]
+footnote = """
+Me pueden encontrar en <a class=link href=https://www.linkedin.com/in/edicion-cientifica/ target=_blank rel=noopener>LinkedIn</a> | Licencia
+<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
+"""
+keywords = ["latex", "book", "edition", "publisher"]
+customCSS = ["css/estilos.css", "css/font.css"]
+customJS = []
+dateFormat = "January 2, 2006"
+emphasisWithDots = true
+since = "2019"
+toc = true
+showWordCount = true
+showReadingTime = true
+rootFontSize = "120%"
+math = true
+enableDuckDuckGoSearchBox = true
+numberedSubtitles = true
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup.highlight]
+style = "monokai"
+
+[markup.tableOfContents]
+  endLevel = 4
+  ordered = true
+  startLevel = 2
+
+[params.sharingbuttons]
+facebook = true
+twitter = true
+email = true
+linkedin = true
+reddit = false
+whatsapp = false
+hackernews = false
+telegram = true
